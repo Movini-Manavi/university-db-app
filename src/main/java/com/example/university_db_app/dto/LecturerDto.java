@@ -1,6 +1,6 @@
-package com.example.universitydb.dto; 
+package com.example.university_db_app.dto; 
   
-import com.example.universitydb.model.Lecturer; 
+import com.example.university_db_app.model.Lecturer; 
   
 public record LecturerDto(String name, String email, String department) { 
   
